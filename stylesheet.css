@@ -1,3 +1,6 @@
+
+/* CSS Zen Garden */
+
 h1 {
   font-family: Tahoma, sans-serif;
   font-size: 50px;
@@ -5,22 +8,189 @@ h1 {
   text-align: center;
   text-shadow: black 6px 6px 8px;
 }
+  /* parrafos TODOS */
+body p {
+  font-family: verdana;
+  font-size: 12px;
+  color: #F4F4F8;
+  text-align: justify;
+}
+
+/* fondo */
 
 body {
+  /* para foto
 	  background-image: url(fondo.png);
-background-attachment: fixed;
+background-attachment: fixed; */
+
+background-color: gray;
+margin-left: 120px;
+margin-right: 120px;
+margin-top: 50px;
+margin-bottom: 50px;
+border-top: 20px;
 }
 
 
-body a
+/* titutlo The Beauty of desing */
+
+h2 {
+font-family: tahoma, cursive ;
+  font-size: 21px;
+  color: orange;
+  text-align: center ;
+    text-shadow: black 2px 4px 6px;
+    letter-spacing:3px;
+   /*  word-spacing: .5em ; */
+
+  
+}
  
-a:link {
-    text-decoration: none;
-    color: #00CED1;
-    font-family: Georgia ;
+
+
+/*  descargas  links The Beauty of desing */
+
+
+.summary p p a {
+	font-family:  verdana;
+  font-size: 16px;
+  color: #FFCCFF;
+  text-align: center;
+  text-shadow: black 6px 6px 8px;
 }
 
-a:visited {
+
+/* TITULO The Road to Enlightenment */
+.preamble h3 {
+font-family: tahoma, cursive ;
+  font-size: 21px;
+  color: orange;
+  text-align: center ;
+    text-shadow: black 2px 4px 6px;
+    letter-spacing:3px;
+   /*  word-spacing: .5em ; */
+
+}
+
+
+
+
+
+/* TITULO So What is This About? */
+
+.main h3 {
+font-family: tahoma, cursive ;
+  font-size: 21px;
+  color: orange;
+  text-align: center ;
+    text-shadow: black 2px 4px 6px;
+    letter-spacing:3px;
+   /*  word-spacing: .5em ; */
+
+}
+
+
+
+/* TITULO So What is This About? */
+
+.participation h3 {
+font-family: tahoma, cursive ;
+  font-size: 21px;
+  color: orange;
+  text-align: center ;
+    text-shadow: black 2px 4px 6px;
+    letter-spacing:3px;
+   /*  word-spacing: .5em ; */
+
+}
+
+
+/* titulo Participation */
+
+.participation h3 {
+font-family: tahoma, cursive ;
+  font-size: 21px;
+  color: orange;
+  text-align: center ;
+    text-shadow: black 2px 4px 6px;
+
+} 
+
+
+
+
+
+/* titulo benefits */
+
+.benefits h3{
+font-family: tahoma, cursive ;
+  font-size: 21px;
+  color: orange;
+  text-align: center ;
+    text-shadow: black 2px 4px 6px;
+
+}
+
+
+
+
+
+
+  /* TITULO Requirements  */
+.requirements h3 {
+font-family: tahoma, cursive ;
+  font-size: 21px;
+  color: orange;
+  text-align: center ;
+    text-shadow: black 2px 4px 6px;
+
+  }
+
+
+
+
+    /* lista LI */
+li {
+
+  ul {
+      margin:0;
+      padding-left: 1.5em;
+      line-height: 1.5em;
+    }
+    ul li { padding-left: .2em; }
+    ul.ok { list-style-image: url(imagenes/ok.png); }
+    ul.go { list-style-image: url(imagenes/bullet_go.png); }
+    ul.redondo { list-style-image: url(imagenes/bullet_red.png); 
+ 
+  }
+
+
+    /* select a desing */
+
+  .select h3 {
+  font-size: 21px;
+  text-align: center ;
+  }
+
+
+      /* archives */
+
+  .design-archives h3{
+
+  }
+
+
+      /* resources */
+
+  .zen-resources h3{
+color: red;
+  }
+
+
+
+
+  /* links */
+body a:visited {
     text-decoration: none;
      color: #FFF8DC;
       font-family: Georgia ;
@@ -38,48 +208,5 @@ a:active {
      font-family: Georgia ;
 }
 
-h2 {
-font-family: tahoma, cursive ;
-  font-size: 18px;
-  color: #FFCCFF;
-  text-align: center ;
-  
-}
-  
-.summary p {
-	font-family: tahoma ;
-  font-size: 12px;
-  color: #F4F4F8;
-  text-align: center;
-  
 
-
-}
-
-.summary p a {
-	font-family:  verdana;
-  font-size: 16px;
-  color: #FFCCFF;
-  text-align: center;
-  text-shadow: black 6px 6px 8px;
-}
-
-.preamble p {
-		font-family:  verdana;
-  font-size: 13px;
-  color: white;
-  text-align: center;
- 
-}
-.preamble h3 {
-	font-family: tahoma, cursive ;
-  font-size: 18px;
-  color: #FFCCFF;
-  text-align: center;
-}
-
-body p {
-		font-family:  tahoma ;
-  font-size: 13px;
-  color: white;
 
